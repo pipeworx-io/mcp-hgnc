@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-hgnc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "HGNC (HUGO Gene Nomenclature Committee) MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-hgnc": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "hgnc"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-hgnc"
+    "url": "git+https://github.com/pipeworx-io/mcp-hgnc.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-dfb0aaae9b012ce25b1fe46719fbf942cfac9426a68f523a8db3d7f1701a3f22",
+    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
   }
 }
