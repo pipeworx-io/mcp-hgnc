@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-hgnc",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "HGNC (HUGO Gene Nomenclature Committee) MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-933681e8e32dc96d8b2f833ebf11dd09400f3ec5b0c1f66d318c2a9359748865",
-    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
+    "sourceHash": "v1-cc994f5d5298733ebbc20751299ee99fe9df18ebfd281b3efc089e7c36584140",
+    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
   }
 }
